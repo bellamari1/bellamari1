@@ -1,0 +1,133 @@
+ body {
+            background-color: #F2E3FA ;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #D0A0EA ;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        header img {
+            width: 50px;
+            vertical-align: middle;
+        }
+
+        header h1 {
+            display: inline;
+            font-size: 2.5em;
+            margin-left: 10px;
+        }
+
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        nav a {
+            margin:  15px;
+            text-decoration:;
+            color: #250335 ;
+            width: 15%;
+	    height:10%;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            color: #C195D6 ;
+        }
+
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .product {
+            background-color: #D9A1F5 ;
+            border: 1px solid #75239E  ;
+            border-radius: 10px;
+            width: 200px;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .product h3 {
+            color: #FFFFFF ;
+            font-size: 1.2em;
+        }
+
+        .contact {
+            background-color:  #EED3FC ;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px auto;
+            width: 50%;
+            text-align: center;
+        }
+
+        .contact h2 {
+            color: #FFFFFF ;
+        }
+
+        .contact p {
+            font-size: 1.1em;
+        }
+
+        footer {
+            background-color: #D0A0EA  ;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+.navbar {
+	background-color: #333;
+	overflow: hidden;
+}
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display:flex;
+	justify-content: center;
+}
+
+.nvabar li {
+	flex: 1;
+}
+.navbar li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+.navbar li a: hover{
+	background-color: #111;
+}
+
+        button {
+            background-color: #DDACF7 ;
+            padding: 20px;
+            color: white;
+            width: 15%;
+}
+	
